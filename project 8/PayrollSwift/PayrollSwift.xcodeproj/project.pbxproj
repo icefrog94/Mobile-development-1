@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E6FED231BFA75BD0065351A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6FED221BFA75BD0065351A /* AppDelegate.swift */; };
+		8E6FED251BFA75BD0065351A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6FED241BFA75BD0065351A /* ViewController.swift */; };
+		8E6FED281BFA75BD0065351A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E6FED261BFA75BD0065351A /* Main.storyboard */; };
+		8E6FED2A1BFA75BD0065351A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E6FED291BFA75BD0065351A /* Images.xcassets */; };
+		8E6FED2D1BFA75BD0065351A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E6FED2B1BFA75BD0065351A /* LaunchScreen.xib */; };
+		8E6FED391BFA75BD0065351A /* PayrollSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6FED381BFA75BD0065351A /* PayrollSwiftTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E6FED331BFA75BD0065351A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E6FED151BFA75BD0065351A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E6FED1C1BFA75BD0065351A;
+			remoteInfo = PayrollSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E6FED1D1BFA75BD0065351A /* PayrollSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayrollSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E6FED211BFA75BD0065351A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E6FED221BFA75BD0065351A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E6FED241BFA75BD0065351A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E6FED271BFA75BD0065351A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E6FED291BFA75BD0065351A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8E6FED2C1BFA75BD0065351A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8E6FED321BFA75BD0065351A /* PayrollSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayrollSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E6FED371BFA75BD0065351A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E6FED381BFA75BD0065351A /* PayrollSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayrollSwiftTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E6FED1A1BFA75BD0065351A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E6FED2F1BFA75BD0065351A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E6FED141BFA75BD0065351A = {
+			isa = PBXGroup;
+			children = (
+				8E6FED1F1BFA75BD0065351A /* PayrollSwift */,
+				8E6FED351BFA75BD0065351A /* PayrollSwiftTests */,
+				8E6FED1E1BFA75BD0065351A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E6FED1E1BFA75BD0065351A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E6FED1D1BFA75BD0065351A /* PayrollSwift.app */,
+				8E6FED321BFA75BD0065351A /* PayrollSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E6FED1F1BFA75BD0065351A /* PayrollSwift */ = {
+			isa = PBXGroup;
+			children = (
+				8E6FED221BFA75BD0065351A /* AppDelegate.swift */,
+				8E6FED241BFA75BD0065351A /* ViewController.swift */,
+				8E6FED261BFA75BD0065351A /* Main.storyboard */,
+				8E6FED291BFA75BD0065351A /* Images.xcassets */,
+				8E6FED2B1BFA75BD0065351A /* LaunchScreen.xib */,
+				8E6FED201BFA75BD0065351A /* Supporting Files */,
+			);
+			path = PayrollSwift;
+			sourceTree = "<group>";
+		};
+		8E6FED201BFA75BD0065351A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E6FED211BFA75BD0065351A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E6FED351BFA75BD0065351A /* PayrollSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E6FED381BFA75BD0065351A /* PayrollSwiftTests.swift */,
+				8E6FED361BFA75BD0065351A /* Supporting Files */,
+			);
+			path = PayrollSwiftTests;
+			sourceTree = "<group>";
+		};
+		8E6FED361BFA75BD0065351A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E6FED371BFA75BD0065351A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E6FED1C1BFA75BD0065351A /* PayrollSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E6FED3C1BFA75BD0065351A /* Build configuration list for PBXNativeTarget "PayrollSwift" */;
+			buildPhases = (
+				8E6FED191BFA75BD0065351A /* Sources */,
+				8E6FED1A1BFA75BD0065351A /* Frameworks */,
+				8E6FED1B1BFA75BD0065351A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayrollSwift;
+			productName = PayrollSwift;
+			productReference = 8E6FED1D1BFA75BD0065351A /* PayrollSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E6FED311BFA75BD0065351A /* PayrollSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E6FED3F1BFA75BD0065351A /* Build configuration list for PBXNativeTarget "PayrollSwiftTests" */;
+			buildPhases = (
+				8E6FED2E1BFA75BD0065351A /* Sources */,
+				8E6FED2F1BFA75BD0065351A /* Frameworks */,
+				8E6FED301BFA75BD0065351A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E6FED341BFA75BD0065351A /* PBXTargetDependency */,
+			);
+			name = PayrollSwiftTests;
+			productName = PayrollSwiftTests;
+			productReference = 8E6FED321BFA75BD0065351A /* PayrollSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E6FED151BFA75BD0065351A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Duarte, Jonathan R";
+				TargetAttributes = {
+					8E6FED1C1BFA75BD0065351A = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					8E6FED311BFA75BD0065351A = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 8E6FED1C1BFA75BD0065351A;
+					};
+				};
+			};
+			buildConfigurationList = 8E6FED181BFA75BD0065351A /* Build configuration list for PBXProject "PayrollSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E6FED141BFA75BD0065351A;
+			productRefGroup = 8E6FED1E1BFA75BD0065351A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E6FED1C1BFA75BD0065351A /* PayrollSwift */,
+				8E6FED311BFA75BD0065351A /* PayrollSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E6FED1B1BFA75BD0065351A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E6FED281BFA75BD0065351A /* Main.storyboard in Resources */,
+				8E6FED2D1BFA75BD0065351A /* LaunchScreen.xib in Resources */,
+				8E6FED2A1BFA75BD0065351A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E6FED301BFA75BD0065351A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E6FED191BFA75BD0065351A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E6FED251BFA75BD0065351A /* ViewController.swift in Sources */,
+				8E6FED231BFA75BD0065351A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E6FED2E1BFA75BD0065351A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E6FED391BFA75BD0065351A /* PayrollSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E6FED341BFA75BD0065351A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E6FED1C1BFA75BD0065351A /* PayrollSwift */;
+			targetProxy = 8E6FED331BFA75BD0065351A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E6FED261BFA75BD0065351A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E6FED271BFA75BD0065351A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E6FED2B1BFA75BD0065351A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E6FED2C1BFA75BD0065351A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E6FED3A1BFA75BD0065351A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E6FED3B1BFA75BD0065351A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E6FED3D1BFA75BD0065351A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PayrollSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E6FED3E1BFA75BD0065351A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PayrollSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8E6FED401BFA75BD0065351A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PayrollSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayrollSwift.app/PayrollSwift";
+			};
+			name = Debug;
+		};
+		8E6FED411BFA75BD0065351A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PayrollSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayrollSwift.app/PayrollSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E6FED181BFA75BD0065351A /* Build configuration list for PBXProject "PayrollSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E6FED3A1BFA75BD0065351A /* Debug */,
+				8E6FED3B1BFA75BD0065351A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E6FED3C1BFA75BD0065351A /* Build configuration list for PBXNativeTarget "PayrollSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E6FED3D1BFA75BD0065351A /* Debug */,
+				8E6FED3E1BFA75BD0065351A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8E6FED3F1BFA75BD0065351A /* Build configuration list for PBXNativeTarget "PayrollSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E6FED401BFA75BD0065351A /* Debug */,
+				8E6FED411BFA75BD0065351A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E6FED151BFA75BD0065351A /* Project object */;
+}
