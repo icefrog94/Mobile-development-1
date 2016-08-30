@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+         <title>Button Chaser</title>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initialscale=1.0">
+         <link href="buttonChaser.css" rel="stylesheet" type="text/css" />
+        <script src="buttonChaser.js" type="text/javascript"></script>
+    </head>
+    <body onLoad="setGameAreaBounds()" onResize="setGameAreaBounds()">
+        <div id="scoreLabel">Score: 0</div>
+        <div id="timeLabel">Time: 30</div>
+        <div id="pageTitle">Button Chaser</div>
+        <p id="gameEnded"></p>
+        <button id="easy" onClick="gameEasy()">Easy</button>
+        <button id="medium" onClick="gameMedium()">Medium</button>
+        <button id="hard" onClick="gameHard()">Hard</button>
+        <button id="stop" onClick="stopTimer()">Stop</button>
+        <div id="gameArea">
+            <button id="dot" onClick="detectHit()"></button>
+        </div>
+    </body>
+</html>

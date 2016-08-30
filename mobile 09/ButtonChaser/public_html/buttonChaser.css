@@ -1,0 +1,104 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 25, 2015, 11:13:53 PM
+    Author     : Wai Yan Kaung
+*/
+
+#scoreLabel{
+ font-family: Arial,Helvetica,sans-serif;
+ font-size: 14pt;
+ color: #000099;
+ font-weight: bold;
+ position: absolute;
+ top: 10px;
+ left: 100px;
+ height: 25px;
+}
+#timeLabel{
+ font-family: Arial,Helvetica,sans-serif;
+ font-size: 14pt;
+ color: #000099;
+ font-weight: bold;
+ position: absolute;
+ top: 10px;
+ left: 10px;
+ height: 25px;
+}
+#easy{
+ font-family: Arial,Helvetica,sans-serif;
+ font-size: 10pt;
+ color: green;
+ font-weight: bold;
+ position: absolute;
+ top: 5px;
+ left: 240px;
+ height: 25px;
+}
+#medium{
+ font-family: Arial,Helvetica,sans-serif;
+ font-size: 10pt;
+ color: green;
+ font-weight: bold;
+ position: absolute;
+ top: 5px;
+ left: 290px;
+ height: 25px;
+}
+#hard{
+ font-family: Arial,Helvetica,sans-serif;
+ font-size: 10pt;
+ color: green;
+ font-weight: bold;
+ position: absolute;
+ top: 40px;
+ left: 240px;
+ height: 25px;
+}
+#stop{
+ font-family: Arial,Helvetica,sans-serif;
+ font-size: 10pt;
+ color: red;
+ font-weight: bold;
+ position: absolute;
+ top: 40px;
+ left: 290px;
+ height: 25px;
+}
+#pageTitle{
+ font-family: Arial,Helvetica,sans-serif;
+ font-size: 24pt;
+ font-weight: bold;
+ color: #000099;
+ position: absolute;
+ top: 35px;
+ left: 10px;
+ height: 25px;
+}
+#gameEnded{
+ font-family: Arial,Helvetica,sans-serif;
+ font-size: 24pt;
+ font-weight: bold;
+ color: red;
+ position: absolute;
+ top: 100px;
+ left: 20px;
+ height: 25px;
+}
+#gameArea{
+ position: absolute;
+ top: 75px;
+ left: 10px;
+ border: 1px #000099 solid;
+}
+#dot{
+ position: absolute;
+ top: 25px;
+ left: 25px;
+ background-color: #000099;
+ width: 65px;
+ height: 65px;
+}
